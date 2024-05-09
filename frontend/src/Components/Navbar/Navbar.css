@@ -4,6 +4,7 @@
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
     z-index: 100;
+    background: white;
 }
 
 .nav-logo{
@@ -17,6 +18,10 @@
     color: #171717;
     font-size: 38px;
     font-weight: 600;
+}
+
+.small-logo{
+    width: 80px;
 }
 
 .nav-menu{
@@ -43,7 +48,7 @@
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background-color: #FF4141;
+    background-color: #3c5b3c;
 }
 
 .nav-login-cart{
@@ -82,7 +87,7 @@
     margin-left: -55px;
     border-radius: 11px;
     font-size: 14px;
-    background: red;
+    background: #3c5b3c;
     color: white;
 }
 
