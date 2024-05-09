@@ -35,7 +35,7 @@ const ProductDisplay = (props) => {
                 <div className="productdisplay-right-prices-new">&#x20B9;{product.new_price}</div>
             </div>
             <div className="productdisplay-right-prices-description">
-                SHOPPER aims to deliver you with the best quality materials to make their trendy and skin friendly products.
+                GREENCART aims to deliver you with the best quality materials to make their trendy and skin friendly products.
             </div>
             <div className="productdisplay-right-size">
                 <h1>Select your size:</h1>

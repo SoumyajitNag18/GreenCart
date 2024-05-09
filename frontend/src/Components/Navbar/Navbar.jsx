@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="nav-logo" onClick={mainPageRedirection}>
             <img src={logo} alt="" />
-            <p>SHOPPER</p>
+            <p>GREENCART</p>
         </div>
         <img className='nav-dropdown' src={nav_dropdown} onClick={dropdown_toggle} alt="" />
         <ul ref={menuRef} className="nav-menu">
