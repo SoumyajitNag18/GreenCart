@@ -23,14 +23,14 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="nav-logo" onClick={mainPageRedirection}>
             <img src={logo} alt="" className='small-logo' />
-            <p>GREENCART</p>
+            
         </div>
         <img className='nav-dropdown' src={nav_dropdown} onClick={dropdown_toggle} alt="" />
         <ul ref={menuRef} className="nav-menu">
-            <li onClick={()=>{setMenu('shop')}} className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/'>Shop</Link>{menu==='shop'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('men')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/men'>Men</Link>{menu==='men'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('women')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/women'>Women</Link>{menu==='women'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('kid')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/kid'>Kids</Link>{menu==='kid'?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('shop')}} className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/'>Home</Link>{menu==='shop'?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('men')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/men'>Sustainable</Link>{menu==='men'?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('women')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/women'>Eco-friendly</Link>{menu==='women'?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('kid')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/kid'>Educate</Link>{menu==='kid'?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
             {localStorage.getItem('auth-token')
