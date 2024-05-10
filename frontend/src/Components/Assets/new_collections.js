@@ -15,14 +15,7 @@ let new_collections = [
     new_price: 549,
     old_price: 799,
   },
-  {
-    id: 35,
-    name: "Black Sports with Orange strips Jacket for Kids",
-    image: p2_img,
-    new_price: 859,
-    old_price: 1349,
-  },
-  {
+   {
     id: 14,
     name: "Men Blue Whited Full-Zip Bomber Jacket for Men",
     image: p3_img,
@@ -57,13 +50,7 @@ let new_collections = [
     new_price: 1699,
     old_price: 1999,
   },
-  {
-    id: 28,
-    name: "Grey Green Sweatshirt for Kids",
-    image: p8_img,
-    new_price: 549,
-    old_price: 799,
-  },
+  
 ];
 
 export default new_collections;

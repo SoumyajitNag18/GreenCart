@@ -5,7 +5,7 @@ import ShopCategory from "./Pages/ShopCategory";
 import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
-import men_banner from "./Components/Assets/banner_men.png";
+import banner_eco from "./Components/Assets/banner_eco.png";
 import women_banner from "./Components/Assets/banner_women.png";
 import kid_banner from "./Components/Assets/banner_kids.png";
 import BasicLayout from "./Components/Layouts/BasicLayout";
@@ -21,14 +21,14 @@ function App() {
                 <Shop />
               </BasicLayout>
           }/>
-          <Route path="/men" element={
+          <Route path="/eco-friendly" element={
               <BasicLayout>
-                <ShopCategory banner={men_banner} category="men" />
+                <ShopCategory banner={banner_eco} category="eco-friendly" />
               </BasicLayout>
           }/>
-          <Route path="/women" element={
+          <Route path="/sustainable" element={
               <BasicLayout>
-                <ShopCategory banner={women_banner} category="women" />
+                <ShopCategory banner={women_banner} category="sustainable" />
               </BasicLayout>
           }/>
           <Route path="/kid" element={
@@ -38,7 +38,7 @@ function App() {
           }/>
           <Route path="/latest-collection" element={
                 <BasicLayout>
-                  <LatestCollection banner={men_banner}/>
+                  <LatestCollection banner={banner_eco}/>
                 </BasicLayout>
           }/>
           <Route path="/product" element={

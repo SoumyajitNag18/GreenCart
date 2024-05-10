@@ -239,16 +239,16 @@ app.post('/login' ,async (req,res)=>{
 app.get('/newcollections', async(req, res)=>{
     let products = await Product.find();
     let newcollection = products.slice(1).slice(-8);
-    console.log("All New Collections were fetched!");
+    console.log("All New Additions were fetched!");
     res.send(newcollection);
 });
 
-//Creating end point for popular in women section
-app.get('/popularinwomen', async(req, res)=>{
-    let products = await Product.find({category:'women'});
-    let popular_in_women = products.slice(0,4);
-    console.log("Popular in women fetched!");
-    res.send(popular_in_women);
+//Creating end point for popular in sustainable section
+app.get('/popularinsustainable', async(req, res)=>{
+    let products = await Product.find({category:'sustainable'});
+    let popular_in_sustainable = products.slice(0,4);
+    console.log("Popular in sustainable fetched!");
+    res.send(popular_in_sustainable);
 })
 
 //Creating middle ware to fetch user

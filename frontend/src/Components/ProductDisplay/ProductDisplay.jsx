@@ -23,11 +23,11 @@ const ProductDisplay = (props) => {
         <div className="productdisplay-right">
             <h1>{product.name}</h1>
             <div className="productdisplay-right-star">
-                <img src={star_icon} alt="" />
-                <img src={star_icon} alt="" />
-                <img src={star_icon} alt="" />
-                <img src={star_icon} alt="" />
-                <img src={star_dull_icon} alt="" />
+                <img src={star_icon} alt="" className='star'/>
+                <img src={star_icon} alt="" className='star'/>
+                <img src={star_icon} alt="" className='star'/>
+                <img src={star_icon} alt="" className='star'/>
+                <img src={star_dull_icon} alt="" className='star' />
                 <p>122</p>
             </div>
             <div className="productdisplay-right-prices">
@@ -35,21 +35,12 @@ const ProductDisplay = (props) => {
                 <div className="productdisplay-right-prices-new">&#x20B9;{product.new_price}</div>
             </div>
             <div className="productdisplay-right-prices-description">
-                GREENCART aims to deliver you with the best quality materials to make their trendy and skin friendly products.
+                GREENCART aims to deliver you with the best quality materials for keeping our Earth safe.
             </div>
-            <div className="productdisplay-right-size">
-                <h1>Select your size:</h1>
-                <div className="productdisplay-right-size">
-                    <div>S</div>
-                    <div>M</div>
-                    <div>L</div>
-                    <div>XL</div>
-                    <div>XXL</div>
-                </div>
-            </div>
+            
             <button onClick={()=>{addToCart(product.id)}}>Add to cart</button>
-            <p className="productdisplay-right-category"><span>Category: </span>Top, Shirt, Tees</p>
-            <p className="productdisplay-right-category"><span>Tags: </span>Modern, Latest, Trendy</p>
+            <p className="productdisplay-right-category"><span>Category: </span>Eco-Friendly and Sustainable</p>
+            <p className="productdisplay-right-category"><span>Tags: </span>Modern, Sustainability, Go Green, Recycle</p>
         </div>
     </div>
   )
