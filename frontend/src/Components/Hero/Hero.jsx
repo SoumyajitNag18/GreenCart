@@ -1,6 +1,5 @@
 import React from 'react'
 import './Hero.css'
-import hand_icon from '../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
 import hero_image from '../Assets/hero_image.png'
 
@@ -11,16 +10,15 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className="hero-left">
-        <h2>New arrivals only!</h2>
+        <h2>Do you also want to save our planet?</h2>
         <div>
           <div className="hero-hand-icon">
-            <p>New</p>
-            <p><img src={hand_icon} alt="" /></p>
+            <p>Get ready to switch</p>
           </div>
-          <p>Collection</p>
+          <p>to Eco-friendly products with us</p>
         </div>
         <div className="hero-latest-btn" onClick={latestCollectionRedirect}>
-          <div>Latest Collections</div>
+          <div>Latest Additions</div>
           <img src={arrow_icon} alt="" />
         </div>
       </div>

@@ -1,5 +1,6 @@
 .cartitems{
-    margin: 100px 70px;
+    margin: 1px 5px;
+    background: linear-gradient(180deg, #7fbf7f, #e1ffea22 60%);
 }
 .cartitems hr{
     height: #e2e2e2;
@@ -56,7 +57,7 @@
     outline: none;
     border: none;
     color: #fff;
-    background: #ff5a5a;
+    background: #3c5b3c;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
@@ -92,10 +93,16 @@
 .cartitems-promocode button{
     width: 170px;
     height: 58px;
-    font-size: 16px;
+    font-size: 20px;
     background: black;
     color: white;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.cartitems-promocode button:hover{
+    background: #333333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 @media(max-width:1280px){
