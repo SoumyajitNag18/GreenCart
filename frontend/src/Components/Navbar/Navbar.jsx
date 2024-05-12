@@ -1,7 +1,7 @@
 import React, { useContext, useRef, useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo1.png'
-import cart_icon from '../Assets/cart_icon.png'
+import cart_icon from '../Assets/cart_icon2.png'
 import { Link } from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
 import nav_dropdown from '../Assets/nav_dropdown.png'
@@ -30,7 +30,7 @@ const Navbar = () => {
             <li onClick={()=>{setMenu('shop')}} className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/'>Home</Link>{menu==='shop'?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu('eco-friendly')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/eco-friendly'>Eco-friendly</Link>{menu==='eco-friendly'?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu('sustainable')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/sustainable'>Sustainable</Link>{menu==='sustainable'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('kid')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/kid'>Greeeeen News</Link>{menu==='kid'?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('kid')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/kid'>Let's do a Green Tour</Link>{menu==='kid'?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
             {localStorage.getItem('auth-token')
@@ -39,7 +39,7 @@ const Navbar = () => {
                 window.location.replace('/');
             }}>Log out</button>
             :<Link to='/login'><button>Login</button></Link> }
-            <Link to='/cart'><img src={cart_icon} alt=""/></Link>
+            <Link to='/cart'><img src={cart_icon} alt="" className='cart_icon'/></Link>
             <div className="nav-cart-count">{getTotalCartItems()}</div>
         </div>
     </div>

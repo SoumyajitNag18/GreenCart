@@ -17,8 +17,9 @@
 }
 .big-logo{
     width: 400px;
-    margin-top: 180px;
+    margin-top: 25%;
     margin-left: -10px;
+    position: relative;
 }
 .footer-links{
     display: flex;
