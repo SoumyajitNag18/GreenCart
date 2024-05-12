@@ -43,6 +43,11 @@
     cursor: pointer;
 }
 
+.nav-menu li:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
 .nav-menu hr{
     border: none;
     width: 80%;
@@ -73,6 +78,8 @@
 .nav-login-cart button:hover {
     background: #333333;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .nav-cart-count{
