@@ -27,10 +27,10 @@ const Navbar = () => {
         </div>
         <img className='nav-dropdown' src={nav_dropdown} onClick={dropdown_toggle} alt="" />
         <ul ref={menuRef} className="nav-menu">
-            <li onClick={()=>{setMenu('shop')}} className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/'>Home</Link>{menu==='shop'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('eco-friendly')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/eco-friendly'>Eco-friendly</Link>{menu==='eco-friendly'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('sustainable')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/sustainable'>Sustainable</Link>{menu==='sustainable'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('greentour')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/greentour'>Let's do a Green Tour</Link>{menu==='greentour'?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu('shop')}} className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/'>Home</Link>{menu==='shop'?<hr style={{margin: "0rem 0"}}/>:<></>}</li>
+            <li onClick={()=>{setMenu('eco-friendly')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/eco-friendly'>Eco-friendly</Link>{menu==='eco-friendly'?<hr style={{margin: "0rem 0"}}/>:<></>}</li>
+            <li onClick={()=>{setMenu('sustainable')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/sustainable'>Sustainable</Link>{menu==='sustainable'?<hr style={{margin: "0rem 0"}}/>:<></>}</li>
+            <li onClick={()=>{setMenu('greentour')}}className='category'><Link style = {{textDecoration:'none', color: 'black'}} to='/greentour'>Green Tour</Link>{menu==='greentour'?<hr style={{margin: "0rem 0"}}/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
             {localStorage.getItem('auth-token')

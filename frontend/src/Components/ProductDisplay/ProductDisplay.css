@@ -95,6 +95,11 @@
     cursor: pointer;
 }
 
+.productdisplay-right button:hover{
+    background: #659865;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 .productdisplay-right-category{
     margin-top: 10px;
 }

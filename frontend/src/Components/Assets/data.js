@@ -1,7 +1,7 @@
-import p1_img from './product_1.png'
-import p2_img from './product_2.png'
-import p3_img from './product_3.png'
-import p4_img from './product_4.png'
+import p1_img from './bamboobottle.jpg'
+import p2_img from './bamboomug.jpg'
+import p3_img from './NeemwoodComb.png'
+import p4_img from './Corkyogamat.png'
 
 let data_product = [
   {
@@ -10,24 +10,28 @@ let data_product = [
     image: p1_img,
     new_price: 599,
     old_price: 999,
+    url: "http://localhost:3000/product/7"
   },
   { id: 2,
-    name: "Bamboo Coffee Mug 350ml",
+    name: "Bamboo Coffee Mug - 300ml",
     image: p2_img,
-    new_price: 399,
-    old_price: 599,
+    new_price: 245,
+    old_price: 399,
+    url: "http://localhost:3000/product/9"
   },
   { id: 3,
-    name: "Coconut shell Box with zipper (Pack of 3)",
+    name: "Neemwood Comb (Double-Sided)",
     image: p3_img,
-    new_price: 599,
-    old_price: 899,
+    new_price: 199,
+    old_price: 249,
+    url: "http://localhost:3000/product/14"
   },
   { id: 4,
-    name: "Recycled A4 Paper Copies - 120 Sheets (Pack of 8)",
+    name: "Cork Yoga Mat",
     image: p4_img,
-    new_price: 799,
-    old_price: 999,
+    new_price: 1299,
+    old_price: 2499,
+    url: "http://localhost:3000/product/7"
   },
 ];
 

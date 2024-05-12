@@ -19,6 +19,7 @@
 .cartitems-format{
     font-size: 17px;
     font-weight: 500;
+    margin-left: 10px;
 }
 .carticon-product-icon{
     height: 62px;
@@ -44,6 +45,7 @@
     flex-direction: column;
     margin-right: 200px;
     gap: 40px;
+    margin-left: 10px;
 }
 .cartitems-total-item{
     display: flex;
@@ -61,6 +63,13 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    margin-left: 30%;
+}
+
+.cartitems-total button:hover{
+    background: #659865;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .cartitems-promocode{
