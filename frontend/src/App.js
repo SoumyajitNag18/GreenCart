@@ -6,8 +6,6 @@ import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
 import banner_eco from "./Components/Assets/banner_eco.png";
-import women_banner from "./Components/Assets/banner_women.png";
-import kid_banner from "./Components/Assets/banner_kids.png";
 import BasicLayout from "./Components/Layouts/BasicLayout";
 import LatestCollection from "./Pages/LatestCollection";
 
@@ -28,12 +26,12 @@ function App() {
           }/>
           <Route path="/sustainable" element={
               <BasicLayout>
-                <ShopCategory banner={women_banner} category="sustainable" />
+                <ShopCategory banner={banner_eco} category="sustainable" />
               </BasicLayout>
           }/>
           <Route path="/kid" element={
               <BasicLayout>
-                <ShopCategory banner={kid_banner} category="kid" />
+                <ShopCategory banner={banner_eco} category="kid" />
               </BasicLayout>
           }/>
           <Route path="/latest-collection" element={

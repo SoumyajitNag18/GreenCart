@@ -46,9 +46,9 @@
 .nav-menu hr{
     border: none;
     width: 80%;
-    height: 3px;
+    height: 5px;
     border-radius: 10px;
-    background-color: #3c5b3c;
+    background-color: #0a6c0a;
 }
 
 .nav-login-cart{
@@ -68,7 +68,7 @@
     font-weight: 500;
     background: black;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition for smooth effects */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
 }
 
 .nav-login-cart button:hover {
