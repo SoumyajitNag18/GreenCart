@@ -29,9 +29,9 @@ function App() {
                 <ShopCategory banner={banner_eco} category="sustainable" />
               </BasicLayout>
           }/>
-          <Route path="/kid" element={
+          <Route path="/greentour" element={
               <BasicLayout>
-                <ShopCategory banner={banner_eco} category="kid" />
+                <ShopCategory banner={banner_eco} category="greentour" />
               </BasicLayout>
           }/>
           <Route path="/latest-collection" element={

@@ -5,7 +5,7 @@ const HeroWithSorting = ({ banner }) => {
     <>
       <img className='shopcategory-banner' src={banner} alt="Props" />
         <div className="shopcategory-indexSort">
-            <p><span>Showing 1-12 </span>out of 36</p>
+            <p><span>Showing 1-10 </span>out of 20</p>
             <div className="shopcategory-sort">
                Sort by <img src={dropdown_icon} alt="" />
             </div>

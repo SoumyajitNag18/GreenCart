@@ -6,9 +6,9 @@ import carousel3 from './carousel3.png'
 function CarouselPage() {
 
   const mainList = [
-    {title: "First slide label" , description: "Nulla vitae elit libero, a pharetra augue mollis interdum." , img : carousel1},
-    {title: "Second slide label" , description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." , img : carousel2},
-    {title: "Third slide label" , description: "Praesent commodo cursus magna, vel scelerisque nisl consectetur." , img : carousel3},
+    {title: "Might be wondering to get some Eco-Friendly Alternatives?" , description: "Slide into our Eco-friendly products range to bring about the changes." , img : carousel1},
+    {title: "Why not get some Sustainable Alternatives for your daily use?" , description: "Get your Sustainable products delivered from us to you." , img : carousel2},
+    {title: "Haven't embarked on the Green Tour yet?" , description: "Come on and take up the pledge to bring up the changes to save envirnoment." , img : carousel3},
   ]
   return (
     <div>
@@ -19,12 +19,11 @@ function CarouselPage() {
               <div className="d-block w-100">
               <img src={eachItem.img} alt="" style={{ width:"100vw" , height:"500px" ,objectFit:"cover" , objectPosition: "center"}}/>
               </div>
-        
-        <Carousel.Caption>
-          <h3>{eachItem.title}</h3>
-          <p>{eachItem.description}</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+              <Carousel.Caption style={{background: "#3c5b3c80"}}>
+                <h3>{eachItem.title}</h3>
+                <p>{eachItem.description}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
           )
         })}
     </Carousel>
