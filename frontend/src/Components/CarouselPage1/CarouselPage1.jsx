@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import carousel1 from './carousel1.png'
-import carousel2 from './carousel2.png'
-import carousel3 from './carousel3.png'
+import carousel1 from '../Assets/carousel1.png'
+import carousel2 from '../Assets/carousel2.png'
+import carousel3 from '../Assets/carousel3.png'
 
 function CarouselPage1() {
 

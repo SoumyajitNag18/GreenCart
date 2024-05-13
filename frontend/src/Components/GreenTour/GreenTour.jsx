@@ -12,10 +12,10 @@ const GreenTour = () => {
         <iframe src="https://www.youtube.com/embed/ocVeDI99Ph4?si=nWX49dgIHvUIRduZ" title="Products from coffee waste" allowFullScreen></iframe>
       </div>
       <div class="ratio ratio-16x9" >
-        <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video3" allowFullScreen></iframe>
+        <iframe src="https://www.youtube.com/embed/vOh9q6n-OFo?si=qS4wFJPerrTrXXMi" title="YouTube video3" allowFullScreen></iframe>
       </div>
       <div class="ratio ratio-16x9" >
-        <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video4" allowFullScreen></iframe>
+        <iframe src="https://www.youtube.com/embed/LjxU13Wxiiw?si=WLWgmNS4IsqSs3Ko" title="YouTube video4" allowFullScreen></iframe>
       </div>
     </div>
     
