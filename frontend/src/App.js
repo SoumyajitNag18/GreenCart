@@ -6,8 +6,10 @@ import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
 import banner_eco from "./Components/Assets/banner_eco.png";
+import banner_sust from "./Components/Assets/banner_sust.png";
 import BasicLayout from "./Components/Layouts/BasicLayout";
 import LatestCollection from "./Pages/LatestCollection";
+import HeroWithoutSorting from "./Components/MiniComps/HeroWithoutSorting";
 
 function App() {
   return (
@@ -26,13 +28,11 @@ function App() {
           }/>
           <Route path="/sustainable" element={
               <BasicLayout>
-                <ShopCategory banner={banner_eco} category="sustainable" />
+                <ShopCategory banner={banner_sust} category="sustainable" />
               </BasicLayout>
           }/>
           <Route path="/greentour" element={
-              <BasicLayout>
-                <ShopCategory banner={banner_eco} category="greentour" />
-              </BasicLayout>
+              <HeroWithoutSorting category="greentour"/>
           }/>
           <Route path="/latest-collection" element={
                 <BasicLayout>

@@ -1,0 +1,12 @@
+.green {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    width: 100%;
+    background: linear-gradient(180deg, #7fbf7f, #e1ffea22 60%);
+}
+
+.ratio {
+    width: 45%; 
+    margin: 1rem; 
+}
