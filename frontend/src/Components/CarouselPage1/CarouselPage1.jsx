@@ -3,7 +3,7 @@ import carousel1 from './carousel1.png'
 import carousel2 from './carousel2.png'
 import carousel3 from './carousel3.png'
 
-function CarouselPage() {
+function CarouselPage1() {
 
   const mainList = [
     {title: "Might be wondering to get some Eco-Friendly Alternatives?" , description: "Slide into our Eco-friendly products range to bring about the changes." , img : carousel1},
@@ -31,4 +31,4 @@ function CarouselPage() {
   )
 }
 
-export default CarouselPage
+export default CarouselPage1
