@@ -19,10 +19,10 @@ function CarouselPage1() {
               <div className="d-block w-100">
               <img src={eachItem.img} alt="" style={{ width:"100vw" , height:"500px" ,objectFit:"cover" , objectPosition: "center"}}/>
               </div>
-              <Carousel.Caption style={{background: "#3c5b3c80"}}>
+              {/* <Carousel.Caption style={{background: "#3c5b3c80"}}>
                 <h3>{eachItem.title}</h3>
                 <p>{eachItem.description}</p>
-              </Carousel.Caption>
+              </Carousel.Caption> */}
             </Carousel.Item>
           )
         })}

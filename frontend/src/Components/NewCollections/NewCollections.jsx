@@ -12,7 +12,7 @@ const NewCollections = () => {
   return (
     <div className='new-collections'>
       <h1>NEW ADDITIONS</h1>
-      <hr />
+      <hr style={{margin: "-1rem 0",background: "#0A6C0A"}}/>
       <div className="collections">
           {new_collection.map((item, i)=>{
             return <Item key={i} id={item.id} name={item.name} 

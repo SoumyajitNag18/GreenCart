@@ -4,7 +4,7 @@
     display: flex;
     margin: auto;
     padding: 0px 140px;
-    margin-bottom: 150px;
+    margin-bottom: 10%;
     background:linear-gradient(180deg, #7fbf7f 0%, #e1ffea22 60%);
 }
 
@@ -57,7 +57,7 @@
 @media(max-width:1280px){
     .offers{
         padding: 0px 80px;
-        margin-bottom: 120px;
+        margin-bottom: 0%;
     }
     .offers-left h1{
         font-size: 40px;
