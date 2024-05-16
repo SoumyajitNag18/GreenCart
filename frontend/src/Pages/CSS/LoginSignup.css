@@ -75,6 +75,13 @@
     font-weight: 500;
 }
 
+.tnc{
+    color: #3c5b3c;
+    cursor: pointer;
+    font-weight: 800;
+    z-index: 11;
+}
+
 @media(max-width: 1280px){
     .loginsignup{
         padding-top: 50px;

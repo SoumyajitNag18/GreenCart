@@ -82,6 +82,7 @@ const LoginSignup = () => {
             <input type="checkbox" name='' id='' />
             <p>By continuing, I agree to the terms of use & privacy policy</p>
         </div>
+        <p onClick={()=>{window.location.replace('/tnc')}} className='tnc'>Read T&C*</p>
       </div>
     </div>
   )

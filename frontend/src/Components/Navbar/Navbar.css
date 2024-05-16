@@ -34,22 +34,24 @@
     font-weight: 500;
 }
 
-.nav-menu li{
+.category1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: #3c5b3c;
 }
 
-.nav-menu li:hover {
+.category1:hover{
     transform: scale(1.05); 
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .nav-menu hr{
     border: none;
-    width: 80%;
+    width: 100%;
     height: 5px;
     border-radius: 10px;
     background-color: #0a6c0a;

@@ -63,7 +63,13 @@ const CartItems = () => {
               <h3>&#x20B9;{getTotalCartAmount()}</h3>
             </div>
           </div>
-          <button>Proceed to checkout</button>
+          <button
+            onClick={() => {
+              window.location.replace("/razorpay");
+            }}
+          >
+            Proceed to checkout
+          </button>
         </div>
         <div className="cartitems-promocode">
           <p>Have a promo code? Enter it here.</p>

@@ -182,6 +182,18 @@ const users = mongoose.model('Users',{
     }
 })
 
+// schema for query table
+const query = mongoose.model('Query',{
+    email:{
+        type:String,
+    },
+    message:{
+        type:String,
+        default:"",
+    }
+})
+
+
 //Creating endpoint for registering the user
 app.post('/signup' ,async (req,res)=>{
 
@@ -293,6 +305,16 @@ app.post('/getcart', fetchUser,async(req, res)=>{
     console.log("Getting products from cart.",req.body.itemId);
     let userData = await users.findOne({_id: req.user.id});
     res.json(userData.cartData)
+});
+
+app.post('/query', async(req, res)=>{
+    if(req.body.email == "") return;
+    if(req.body.message == "") return;
+    const newQuery = new query({
+        email: req.body.email,
+        message: req.body.message
+    })
+    await newQuery.save();
 });
 
 //For any kind of errors 

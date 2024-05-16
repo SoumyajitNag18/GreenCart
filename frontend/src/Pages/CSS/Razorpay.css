@@ -1,0 +1,71 @@
+  .payment-container {
+    background-color: white;
+    width: 60%;
+    height: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #45849e;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .header .title {
+    margin-left: 10px;
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .header .amount {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .details {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .details div {
+    margin-bottom: 10px;
+  }
+  
+  .details .label {
+    font-weight: bold;
+  }
+  
+  .details .value {
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  
+  .payment-methods {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .payment-methods div {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .payment-methods img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
