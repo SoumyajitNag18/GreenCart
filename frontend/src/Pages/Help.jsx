@@ -58,8 +58,26 @@ const Help = () => {
 
 <p className="question">How can I ensure that a product is truly sustainable and not just greenwashing?</p>
 <p className="answer">Research the company's sustainability initiatives, certifications, and transparency in their supply chain to verify their commitment to sustainability.</p>
+<style>
+  {`
+    .button{
+      height: 50px;
+      border-radius: 5px;
+      padding: 1rem;
+      background: #3c5b3c;
+      color: white;
+      border: none;
+      transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      width: 50%;
+      margin-left: 25%;
+    }
+    .button:hover{
+      background: #659865;
+      transform: scale(1.05);
+    }
+  `}
+</style>
 </div>
-
       <div className="query">
         <label htmlFor="email">Enter Your Email Here: </label>
         <input
@@ -76,10 +94,11 @@ const Help = () => {
           onChange={(event) => {
             setMessage(event.target.value);
           }}/>
-        <button
-          style={{ borderRadius: "5px", height: "50px", padding: "1rem" }}
+        <button className="button"
+          // style={{ borderRadius: "5px", height: "50px", padding: "1rem" }}
           onClick={() => {
             submitQuery();
+            alert("Your query has been submitted successfully!");
           }}>
           Submit
         </button>

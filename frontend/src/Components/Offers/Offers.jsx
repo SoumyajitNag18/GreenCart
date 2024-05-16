@@ -8,8 +8,7 @@ const Offers = () => {
       <div className="offers-left">
         <h1>Exclusive Offers</h1>
         <p>Grab yours before it's gone</p>
-        <button>Check Now!</button>
-
+        <button onClick={() => {window.location.replace("/product/16");}}>Check Now!</button>
       </div>
       <div className="offers-right">
             <img src={exclusive_image} alt=""/>

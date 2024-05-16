@@ -9,10 +9,9 @@
 }
 
 .offers-left{
-    flex:1;
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
 }
 
 .offers-left h1{

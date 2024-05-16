@@ -4,9 +4,10 @@
     justify-content: center; 
     width: 100%;
     background: linear-gradient(180deg, #7fbf7f, #e1ffea22 60%);
+    color: white;
 }
 
 .ratio {
-    width: 45%; 
-    margin: 1rem; 
+    width: 80%; 
+    margin: 1rem;  
 }
